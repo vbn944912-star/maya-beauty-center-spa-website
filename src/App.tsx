@@ -17,7 +17,6 @@ import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 import FloatingWidgets from './components/FloatingWidgets';
 import LuxuryLoader from './components/LuxuryLoader';
-import VideoTour from './components/VideoTour';
 
 export default function App() {
   const [preselectedService, setPreselectedService] = useState('');
@@ -55,9 +54,6 @@ export default function App() {
 
       {/* 4. Elegant Editorial About Storyteller */}
       <About />
-
-      {/* Cinematic virtual tour showcase */}
-      <VideoTour />
 
       {/* 5. Custom Icon Bento Grid Details */}
       <WhyChoose />
