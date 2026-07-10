@@ -1,0 +1,87 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Tajawal:wght@300;400;500;700;800;900&family=Inter:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", sans-serif;
+  
+  --color-luxury-gold: #C7A35B;
+  --color-luxury-gold-dark: #A5823D;
+  --color-warm-beige: #F6F2EC;
+  --color-soft-cream: #FBF8F5;
+  --color-charcoal: #222222;
+  --color-charcoal-light: #333333;
+  --color-rose-gold: #D7A58A;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  body {
+    background-color: #FBF8F5; /* Soft Cream */
+    color: #222222; /* Charcoal */
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+  }
+
+  /* Right-to-Left (Arabic) elegant font overrides */
+  [dir="rtl"] body,
+  [dir="rtl"] input,
+  [dir="rtl"] select,
+  [dir="rtl"] textarea,
+  [dir="rtl"] button {
+    font-family: "Cairo", "Tajawal", "Inter", sans-serif !important;
+  }
+
+  [dir="rtl"] h1,
+  [dir="rtl"] h2,
+  [dir="rtl"] h3,
+  [dir="rtl"] h4,
+  [dir="rtl"] h5,
+  [dir="rtl"] h6,
+  [dir="rtl"] .font-serif {
+    font-family: "Cairo", "Tajawal", "Playfair Display", serif !important;
+  }
+
+
+  /* Custom Elegant Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #FBF8F5;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #C7A35B;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #A5823D;
+  }
+}
+
+/* Glassmorphism Classes */
+.glass-nav {
+  background: rgba(251, 248, 245, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.glass-card-dark {
+  background: rgba(34, 34, 34, 0.8);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}

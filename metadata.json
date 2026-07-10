@@ -1,0 +1,6 @@
+{
+  "name": "MAYA BEAUTY CENTER & SPA",
+  "description": "Luxury Beauty & Spa Experience in Doha, Qatar. Professional hair styling, advanced facials, relaxing massages, Moroccan hammam, gel nails, and premium bridal packages.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
