@@ -142,8 +142,14 @@ export const TRANSLATIONS = {
     "gallery.item.gal-4": "Flawless HydraFacial Treatment",
     "gallery.item.gal-5": "Sophisticated Rose Gold Nail Art",
     "gallery.item.gal-6": "Elegant Five-Star Interior",
-    "gallery.item.gal-7": "Bridal Couture Makeup",
-    "gallery.item.gal-8": "Premium Styling Atelier",
+    "gallery.item.gal-9": "Royal Hammam Stone Bed",
+    "gallery.item.gal-10": "Bespoke Wavy Hair Styling",
+    "gallery.item.gal-11": "Five-Star Salon Atmosphere",
+    "gallery.item.gal-12": "Warm Reception Lounge",
+    "gallery.item.gal-13": "Luxury Pedicure Suite",
+    "gallery.item.gal-14": "Exclusive Red Cat-Eye Nail Art",
+    "gallery.item.gal-15": "Velvet Silver Nail Design",
+    "gallery.item.gal-16": "Elite Hair Washing Lounge",
 
     // Reviews Section
     "reviews.tag": "Guest Testimonials",
@@ -359,8 +365,14 @@ export const TRANSLATIONS = {
     "gallery.item.gal-4": "علاج الهيدرافيشال المتقدم لتنظيف البشرة",
     "gallery.item.gal-5": "رسم أظافر فني بلون الروز غولد الراقي",
     "gallery.item.gal-6": "صالون مايا الفاخر بتصميم خمس نجوم",
-    "gallery.item.gal-7": "مكياج وتسريحة العروس الملكية الفائقة",
-    "gallery.item.gal-8": "أتيليه تصفيف الشعر والمرايا المضاءة",
+    "gallery.item.gal-9": "سرير الرخام الملكي للحمام المغربي",
+    "gallery.item.gal-10": "تسريحة شعر كوتور مموجة",
+    "gallery.item.gal-11": "أجواء صالون مايا الفاخرة",
+    "gallery.item.gal-12": "ردهة الاستقبال الدافئة والأنيقة",
+    "gallery.item.gal-13": "أجنحة الباديكير الفخمة والحديثة",
+    "gallery.item.gal-14": "فن طلاء الأظافر الكات آي الأحمر الفخم",
+    "gallery.item.gal-15": "طلاء أظافر مغناطيسي مخملي فضي",
+    "gallery.item.gal-16": "ركن غسيل الشعر الفخم والمنظم",
 
     // Reviews Section
     "reviews.tag": "شهادات ضيوفنا",

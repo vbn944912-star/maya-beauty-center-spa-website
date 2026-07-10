@@ -12,6 +12,16 @@ export const HAMMAM_IMAGE = 'https://images.unsplash.com/photo-1600334089648-b0d
 export const BRIDAL_IMAGE = 'https://images.unsplash.com/photo-1594744803329-e58b31de215f?auto=format&fit=crop&q=80&w=1000';
 export const INTERIOR_IMAGE = 'https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&q=80&w=1000';
 
+// Real gallery work assets generated from client photos
+export const NEW_HAMMAM_TABLE = '/src/assets/images/gallery_hammam_table_1783678415119.jpg';
+export const NEW_HAIR_WAVY = '/src/assets/images/gallery_hair_wavy_1783678428472.jpg';
+export const NEW_SALON_INTERIOR = '/src/assets/images/gallery_salon_interior_1783678442247.jpg';
+export const NEW_RECEPTION_SOFA = '/src/assets/images/gallery_reception_sofa_1783678454363.jpg';
+export const NEW_PEDICURE_CHAIRS = '/src/assets/images/gallery_pedicure_chairs_1783678465774.jpg';
+export const NEW_NAILS_RED = '/src/assets/images/gallery_nails_red_1783678477578.jpg';
+export const NEW_NAILS_GREY = '/src/assets/images/gallery_nails_grey_1783678488370.jpg';
+export const NEW_WASHING_STATION = '/src/assets/images/gallery_washing_station_1783678502252.jpg';
+
 export const SERVICE_CATEGORIES: ServiceCategory[] = [
   {
     id: 'hair',
@@ -251,8 +261,14 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   { id: 'gal-4', title: 'Flawless HydraFacial Treatment', category: 'facials', image: FACIAL_IMAGE },
   { id: 'gal-5', title: 'Sophisticated Rose Gold Nail Art', category: 'nails', image: NAILS_IMAGE },
   { id: 'gal-6', title: 'Elegant Five-Star Interior', category: 'interior', image: HERO_IMAGE },
-  { id: 'gal-7', title: 'Bridal Couture Makeup', category: 'bridal', image: BRIDAL_IMAGE },
-  { id: 'gal-8', title: 'Premium Styling Atelier', category: 'interior', image: INTERIOR_IMAGE },
+  { id: 'gal-9', title: 'Royal Hammam Stone Bed', category: 'spa', image: NEW_HAMMAM_TABLE },
+  { id: 'gal-10', title: 'Bespoke Wavy Hair Styling', category: 'hair', image: NEW_HAIR_WAVY },
+  { id: 'gal-11', title: 'Five-Star Salon Atmosphere', category: 'interior', image: NEW_SALON_INTERIOR },
+  { id: 'gal-12', title: 'Warm Reception Lounge', category: 'interior', image: NEW_RECEPTION_SOFA },
+  { id: 'gal-13', title: 'Luxury Pedicure Suite', category: 'nails', image: NEW_PEDICURE_CHAIRS },
+  { id: 'gal-14', title: 'Exclusive Red Cat-Eye Nail Art', category: 'nails', image: NEW_NAILS_RED },
+  { id: 'gal-15', title: 'Velvet Silver Nail Design', category: 'nails', image: NEW_NAILS_GREY },
+  { id: 'gal-16', title: 'Elite Hair Washing Lounge', category: 'interior', image: NEW_WASHING_STATION },
 ];
 
 export const SPECIAL_OFFERS: SpecialOffer[] = [
