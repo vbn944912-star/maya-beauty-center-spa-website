@@ -121,6 +121,7 @@ export default function ServicesSection({ onBookClick }: ServicesSectionProps) {
                 alt={t(`cat.${currentCategoryObj.id}`)}
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"
+                loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-charcoal/20 to-transparent" />
             </div>

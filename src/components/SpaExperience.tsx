@@ -89,6 +89,7 @@ export default function SpaExperience({ onBookClick }: SpaExperienceProps) {
                 alt="Therapeutic Stone Ritual"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover select-none transition-transform duration-[4000ms] hover:scale-105"
+                loading="lazy"
               />
               <div className="absolute inset-0 bg-charcoal/10 mix-blend-multiply" />
             </motion.div>
@@ -108,6 +109,7 @@ export default function SpaExperience({ onBookClick }: SpaExperienceProps) {
                 alt="Traditional Moroccan Hammam Room"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover select-none"
+                loading="lazy"
               />
             </motion.div>
 

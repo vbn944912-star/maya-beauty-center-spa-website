@@ -35,6 +35,7 @@ export default function About() {
                 alt="Maya Spa Treatment"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover select-none transition-transform duration-[4000ms] hover:scale-105"
+                loading="lazy"
               />
               <div className="absolute inset-0 bg-luxury-gold/5 mix-blend-multiply" />
             </div>
